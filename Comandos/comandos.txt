@@ -1,0 +1,16 @@
+470  mkdir Actividades
+471  mkdir "Deportes de equipo" "Deportes acuaticos" "Deportes extremos" "Deportes de mesa" "Deportes mentales"
+472  mkdir -p "Actividades/Deportes de equipo" "Actividades/Deportes acuaticos" "Actividades/Deportes extremos" "Actividades/Deportes de mesa" "Actividades/Deportes mentales"
+473  touch "Deportes de equipo/Basquet" "Deportes mentales/Ajedrez.txt" "Deportes de meas/Ping pong"
+474  touch "Actividades/Deportes de equipo/Basquet" "Actividades/Deportes mentales/Ajedrez.txt" "Actividades/Deportes de meas/Ping pong"
+475  touch "Actividades/Deportes de equipo/Basquet" "Actividades/Deportes mentales/Ajedrez.txt" "Actividades/Deportes de mesa/Ping pong"
+476  ls
+477  cd Actividades
+478  ls -r
+479  ls -a
+480  ls -R
+481  rm "Deportes extremos"
+482  rm -r "Deportes extremos"
+483  pwd
+484  git init
+485  history 50
